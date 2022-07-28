@@ -58,7 +58,6 @@ p {
 # slider
 --------------------------------------------------------------*/
 .carousel-item {
-    /* min-height: 100vh; */
     width: 100%;
 }
 
@@ -71,7 +70,6 @@ p {
     left: 0;
     bottom: 0;
 }
-
 /*--------------------------------------------------------------
 # Explore The elearning Institute
 --------------------------------------------------------------*/
@@ -87,6 +85,9 @@ p {
     border-radius: 5px;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.join-tittle {
+    padding-left: 3rem;
 }
 
 /*--------------------------------------------------------------
@@ -104,4 +105,26 @@ footer {
     background: #242424;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+/* tablet  */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .course-oline {
+        font-size: 13px;
+    }
+    .join-tittle {
+        text-align: center;
+        padding-left: 0;
+    }
+   
+}
+
+@media screen and (max-width:576px) {
+    .join-tittle {
+        text-align: center;
+        padding-left: 0;
+    }
+    .Success-card {
+        text-align: center;
+    }
 }
